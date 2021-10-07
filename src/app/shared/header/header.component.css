@@ -1,9 +1,25 @@
+.pular-conteudo,
+.pular-conteudo:active,
+.pular-conteudo:focus,
+.pular-conteudo:hover
+ {
+  position: absolute;
+  color: transparent;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
 .wrapper-header  {
   height: 30vh;
   padding: 20px;
   background: #EC7000;
   color: #fff;
   box-shadow: 0 2px 5px -2px grey;
+}
+
+ul{
+  list-style: none;
 }
 
 .menu-header li  {
