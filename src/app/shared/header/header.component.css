@@ -12,7 +12,7 @@
 
 .wrapper-header  {
   height: 30vh;
-  padding: 20px;
+  padding: 16px;
   background: #EC7000;
   color: #fff;
   box-shadow: 0 2px 5px -2px grey;
@@ -38,7 +38,7 @@ ul{
   flex-wrap: nowrap;
   justify-content:start;
   top: 5px;
-  background-color: #EC7000;
+  background-color: transparent;
   border: 0;
   color: #333;
   margin-bottom: 15px;
@@ -56,21 +56,26 @@ ul{
       display: inline;
       position: relative;
       margin: 10px;
-      top: 30px;
+      top: 10px;
       font-size: 18px;
   }
 
-  .acessar-conta {
-    display: flex;
-    flex-direction:row;
-    justify-content:start;
-    top: 5px;
-    background-color: transparent;
-    border: 0;
-    color: #333;
+}
 
-    }
 
+@media screen and (min-width: 360px) {
+  .wrapper-header {
+      height: 15vh;
+  }
+
+  .menu-header li {
+      list-style: none;
+      display: inline;
+      position: relative;
+      margin: 10px;
+      top: 10px;
+      font-size: 18px;
+  }
 }
 
 
