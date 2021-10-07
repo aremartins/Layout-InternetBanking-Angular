@@ -7,13 +7,15 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { HeaderComponent } from './shared/header/header.component';
 import { ContentComponent } from './shared/content/content.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { CadastroClientesComponent } from './src/app/cadastro-clientes/cadastro-clientes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroClientesComponent
   ],
   imports: [
     BrowserModule,

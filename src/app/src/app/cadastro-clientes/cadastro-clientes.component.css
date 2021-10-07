@@ -1,0 +1,26 @@
+.box-cadastro {
+    margin: 30px;
+    padding: 30px;
+  }
+  .cadastro {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    outline: none;
+    height: 50px;
+  }
+  .btn-cadastro {
+    margin-top: 5px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #0B5ED7;
+    font-weight: bold;
+  }
+
+  .btn-cadastro:hover {
+    background-color: #084299;
+  }

@@ -42,6 +42,17 @@
 	background-size:cover;
 }
 
+.btn-home-cadastro-clientes {
+  position: absolute !important;
+  top: 250px;
+  padding: 20px;
+  font-size: 25px;
+  width: 40%;
+  background: #0D6EFD;
+  color: #fff;
+  border: 2px solid;
+  }
+
 @media screen and (min-width:600px) {
   .box-title {
     width: 40vw;
