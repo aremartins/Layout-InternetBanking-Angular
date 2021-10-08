@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Result
 
-<img src="https://github.com/aremartins/Layout-InternetBanking-Angular/blob/main/src/assets/imagens/RebBank%20(1).gif?raw=true"/>
+<img src="https://github.com/aremartins/Layout-InternetBanking-Angular/blob/main/RebBank%20(2).gif?raw=true"/>
 
 ## Development server
 
