@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { ContentComponent } from './shared/content/content.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CadastroClientesComponent } from './src/app/cadastro-clientes/cadastro-clientes.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CadastroClientesComponent } from './src/app/cadastro-clientes/cadastro-
     BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

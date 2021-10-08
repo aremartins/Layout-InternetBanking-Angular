@@ -2,7 +2,7 @@
   <div class="row box-cadastro">
     <div class="col-12">
       <h3 class="text-center">Você está a um passo de criar sua conta RebBanking</h3>
-      <form class="mt-5" >
+      <form class="mt-5" (ngSubmit)='cadastro()' [formGroup]='formCadastro'>
         <div class="form-group">
           <input type="text" class="form-control cadastro" placeholder="Nome" formControlName='nome'>
         </div>

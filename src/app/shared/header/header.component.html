@@ -10,7 +10,7 @@
     </div>
 
     <div class="col-xs-12 col-md-4">
-        <form>
+        <form [formGroup]='formLogin'>
         <div class="form-row align-items-center">
           <div class="col-auto my-1">
             <div class="form-check">
@@ -18,7 +18,7 @@
                 <b>Acesse</b> sua conta
               </label>
               <div class="acessar-conta">
-                <input type="text"  id="inlineFormInputName" placeholder="Digite seu CPF">
+                <input type="text"  id="inlineFormInputName" placeholder="Digite seu CPF" minlength="11" maxlength="13">
                 <button type="submit" class="btn btn-primary">Acessar</button>
               </div>
             </div>
